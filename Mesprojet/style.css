@@ -28,7 +28,7 @@ a:hover::after {
 /* -----------aniv acccueil------ */
 
 .showcase {
-    background-image: url("images/way.jpg");
+    background-image: url("images/way.png");
     height: 100vh;
     background-position: center;
     background-size: cover;
