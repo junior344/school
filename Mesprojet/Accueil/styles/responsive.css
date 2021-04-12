@@ -1,0 +1,167 @@
+/* --------------------------- nav --------------------------------- */
+
+@media screen and (max-width: 700px) {
+    .logo-menu {
+        display: block;
+    }
+    .liste-nav {
+        text-align: center;
+        width: 100%;
+        background: #0F0E17;
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        height: auto;
+    }
+    .liste-nav.active {
+        display: block;
+    }
+    .item-nav {
+        line-height: 10px;
+    }
+}
+
+
+/* ---------------------------------------entete ------------------------------------- */
+
+@media screen and (max-width: 700px) {
+    #head {
+        display: block;
+    }
+    .titre h1 {
+        font-size: 3em;
+        padding: 5%;
+        text-align: center;
+    }
+    .sous_entete h1 {
+        font-size: 1em;
+        margin: 0;
+        text-align: center;
+    }
+    .sous_entete p {
+        font-size: 1em;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .notebook {
+        display: none;
+    }
+    .sous_entete a {
+        margin: 20px;
+        padding: 10px;
+    }
+    .lien {
+        font-size: 0.5em;
+    }
+    #entete {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sous_entete {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .btn{
+        display: none;
+    }
+    .notebook {
+        display: none;
+    }
+    #head {
+        display: block;
+    }
+    .item-nav {
+        margin: 0 auto;
+    }
+}
+
+
+/* --------------------------------section slide ---------------------------------- */
+/* @media screen and (max-width:1300px) {
+    .prev {
+        font-size: 1.5em;
+    }
+    .next {
+        font-size: 1.5em;
+        color: blueviolet;
+    }
+} */
+
+@media screen and (max-width: 800px) {
+    .titre h1 {
+        font-size: 2em;
+    }
+    .slide {
+        height: 500px;
+    }
+    .txt h3 {
+        font-size: 1.3em;
+    }
+    .txt p {
+        font-size: 1.2em;
+    }
+    .txt {
+        width: 100%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-animation-duration: 2s;
+        -webkit-animation-name: posi2;
+        animation-name: posi2;
+        animation-duration: 2s;
+    }
+    @-webkit-keyframes posi2 {
+        from {
+            top: 35%;
+        }
+        to {
+            top: 50%;
+        }
+    }
+    @keyframes posi2 {
+        from {
+            top: 35%;
+        }
+        to {
+            top: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .txt p {
+        font-size: 0.5em;
+    }
+    .txt h3 {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .dotsbox {
+        display: none;
+    }
+}
+
+
+/* @media screen and (max-width: 700px) {
+    .nav-btn {
+        display: none;
+    }
+} */
+
+
+/* -----------------------formulaire ---------------------------------- */
+
+@media screen and (max-width: 1300px) {
+    .section-contact h2 {
+        padding: 70px 0 0 0;
+    }
+    .container-form {
+        padding-left: 0;
+    }
+}

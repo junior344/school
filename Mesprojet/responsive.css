@@ -1,0 +1,13 @@
+@media screen and (max-width: 800px) {
+    .set {
+        display: none;
+    }
+    .showcase .button{
+        background: #e7e1db;
+        color: #111010;
+        font-weight: bold;
+    }
+    .showcase h1{
+        font-size: 1em;
+    }
+}

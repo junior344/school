@@ -1,0 +1,13 @@
+h1{
+    font-weight: 800;
+    color: rgb(93, 90, 90);
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: rgb(224, 100, 100);
+}
